@@ -1,0 +1,249 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    margin: 0;
+}
+h1{
+    line-height: 1.3em;
+    font-size: 2rem;
+}
+p{
+    margin-bottom: 1.6em;
+}
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+.header{
+    background-color: black;
+    color: white;
+    padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2500;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+}
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo{
+    letter-spacing: 6px;
+    font-size: 1.1em;
+
+}
+.navegacion ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navegacion ul li{
+    display: inline-block;
+}
+.navegacion ul li a{
+    display: block;
+    padding: 0.5rem 0.5rem;
+    transition: all 5px;
+    border-radius: 5px;
+}
+.navegacion ul li a:hover{
+    background: brown;
+}
+.main{
+    padding-top: 7rem;
+    background-color: brown;
+}
+.footer{
+    background: #f2f2f2;
+    color: gray;
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 0;
+}
+@media only screen and (max-width: 500px){
+    .navegacion{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .navegacion ul li{
+        display: block;
+    }
+    .navegacion ul li a{
+        display: block;
+        padding: 0.5rem 0;
+        transition: all 5px;
+        border-radius: 5px;
+    }
+    .navegacion ul li a:hover{
+        background: brown;
+    }
+}
+
+
+
+.fondo{
+    display: block; 
+    width: 100%; 
+    max-width: 100%;
+}
+.container_index{
+    width: auto;
+    color: black;
+    text-align: left;
+    position: absolute;
+    z-index: 2000;
+    top: 25%;
+    left: 64%;
+    transform: translateX(-67%) translate(-67%);
+    font-size: 1.5em;
+    font-weight: bold;
+    font-size: 30px;
+}
+h6{
+    font-style: italic;
+}
+h2,h3{
+    line-height: 0.5em;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+hr{
+    width: auto; 
+    size: 3px; 
+    color: snow;
+    
+   
+}
+.form{
+    font-size: 16px;
+    font-style: italic;
+}
+.container_biografia{
+    width: auto;
+    color: white;
+    text-align: left;
+    position: absolute;
+    z-index: 2000;
+    top: 25%;
+    left: 64%;
+    transform: translateX(-45%) translate(-40%);
+    font-size: 1.5em;
+    font-weight: bold;
+    font-size: 30px;
+}
+.ul{
+    font-size: 20px;
+}
+.container_datos{
+    width: auto;
+    color: black;
+    text-align: left;
+    position: absolute;
+    z-index: 2000;
+    top: 25%;
+    left: 64%;
+    transform: translateX(-85%) translate(-85%);
+    font-size: 1.5em;
+    font-weight: bold;
+    font-size: 30px;
+}
+.indexP{
+    font-size: 20px;
+    text-align: justify;
+}
+.container_discografia{
+    width: auto;
+    color: white;
+    text-align: left;
+    position: absolute;
+    z-index: 2000;
+    top: 25%;
+    left: 64%;
+    transform: translateX(-120%) translate(-120%);
+    font-size: 1.5em;
+    font-weight: bold;
+    font-size: 30px;
+}
+.ol{
+    font-size: 17px;
+    font-style: italic;
+}
+.video{
+    width: 640;
+    height: 480;
+    position: absolute;
+}
+.container_premios{
+    width: auto;
+    color: black;
+    text-align: left;
+    position: absolute;
+    z-index: 2000;
+    top: 25%;
+    left: 64%;
+    transform: translateX(-80%) translate(-80%);
+    font-size: 1.5em;
+    font-weight: bold;
+    font-size: 30px;
+}
+.lista{
+    font-size: 16px;
+}
+.container_redes{
+    width: auto;
+    color: white;
+    text-align: center;
+    position: absolute;
+    z-index: 2000;
+    top: 25%;
+    left: 64%;
+    transform: translateX(-70%) translate(-70%);
+    font-size: 1.5em;
+    font-weight: bold;
+    font-size: 30px;
+}
+.icono{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container_nominaciones{
+    width: auto;
+    color: white;
+    text-align: left;
+    position: absolute;
+    z-index: 2000;
+    top: 25%;
+    left: 64%;
+    transform: translateX(-80%) translate(-80%);
+    font-size: 1.5em;
+    font-weight: bold;
+    font-size: 30px;
+}
+
